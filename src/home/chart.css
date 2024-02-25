@@ -1,0 +1,87 @@
+.charts{
+    padding: 5px 20px;
+}
+
+.piechart{
+    flex:3;
+    -webkit-box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    -moz-box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    border-radius: 10px;
+
+    padding: 20px;
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: grey;
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+
+        .featuredChart{
+            width: 100px;
+            height: 100px;
+        }
+
+        .title{
+            font-weight: 500;
+            color: grey;
+        }
+        .amount{
+            font-size: 30px;
+        }
+        .desc{
+            font-weight: 300;
+            font-size: 12px;
+            color: grey;
+            text-align: center;
+        }
+    }
+
+    .summary{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .item{
+            text-align: center;
+            .title{
+                font-size: 15px;
+                color: grey;
+            }
+            .amount{
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+}
+.linechart{
+    
+    flex:6;
+    padding: 10px;
+    color: grey;
+    -webkit-box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    -moz-box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    border-radius: 10px;
+    .title{
+        font-size: 20px;
+        
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 600px){
+    .linechart{display: none;}
+}

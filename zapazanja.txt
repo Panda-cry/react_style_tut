@@ -1,0 +1,78 @@
+Ukratko, position: relative; pomeriće element relativno u odnosu na njegov normalni položaj na stranici, dok će position: absolute; pomeriti element relativno u odnosu na prvog roditelja koji nije position: static;, ili u odnosu na sam dokument ako takav roditelj ne postoji.
+
+
+
+
+
+DISPLAY
+
+Parametar display u CSS-u određuje način na koji se element prikazuje na web stranici. Ovdje su neke od glavnih vrijednosti koje se mogu koristiti za display svojstvo, zajedno s njihovim objašnjenjima:
+
+block: Element zauzima cijelu širinu raspoloživog prostora i počinje novi red. Na primjer, <div> je podrazumijevano display: block;.
+
+inline: Element zauzima samo onoliko prostora koliko mu je potrebno, a ne počinje novi red. Više ovih elemenata može postojati u istom redu. Na primjer, <span> je podrazumijevano display: inline;.
+
+inline-block: Kombinacija inline i block elemenata. Element zauzima samo onoliko prostora koliko mu je potrebno, ali može imati visinu i širinu.
+
+flex: Element postaje fleksibilan kontejner i omogućuje kontrolu rasporeda svojih dječjih elemenata koristeći Flexbox modele. Ovo je korisno za postizanje prilagodljivih rasporeda i poravnanja.
+
+grid: Element postaje kontejner s mrežnim rasporedom koji omogućuje kontrolu rasporeda svojih dječjih elemenata koristeći CSS Grid modele. Ovo je korisno za postizanje složenih rasporeda i poravnanja.
+
+none: Element nije prikazan na stranici. Ovo se koristi za skrivanje elemenata.
+
+table, table-cell, table-row: Ove vrijednosti se koriste za simuliranje tablične strukture. Elementi koji koriste ove vrijednosti ponašaju se kao ćelije, redovi ili tablice.
+
+Ovi su najčešće korišteni primjeri display svojstva, ali postoji i nekoliko drugih vrijednosti. Odabir prave vrijednosti za display ovisi o specifičnostima dizajna i funkcionalnosti vaše web stranice. Na primjer, za raspoređivanje elemenata, možete koristiti flex ili grid, dok za postavljanje teksta ili slika u liniju možete koristiti inline ili inline-block.
+
+
+
+
+
+
+
+Kada imamo html for povezujemo labelu i komponentu
+tako da mozemo npr dugme za upload file da izbacim 
+i kada stisnemo labelu moze da nam izbaci!!!
+
+
+
+Nesto sto sam ukapirao 
+kreiramo temu sa nasim izborima 
+Par stvari treba da razdvojimo 
+Boja/debljina teksta
+
+i 
+
+
+ostale vrednosti 
+
+
+boja i debljina teksta i mozda boja teksta da 
+se ostavi da bude proizvoljna za temu 
+jer tema moze da se menja 
+ dok ostale stvari kroz css da se odrade 
+ pozicioniranje i ostale zajebancije.
+
+ formatiranje i sve da ide kroz css dok boje treba da idu krzo temu 
+ jer cemo tako moci dinamicki da menjamo temu 
+
+ ujedno sto theme ima neki spacing i to moze da se koristi 
+ ali radi jednostavnosti koda 
+ treba da ide kroz neki css ili da se kreira neki fajl 
+ koji ce da menja style elementa!!!
+u themu treba da idu neke generalne stvari 
+da se ne mora na 100 mesta da se menja kod 
+nego samo na 1 mestu 
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+.datable{
+    margin: 15px;
+    background-color: rgb(224, 198, 245);
+    .cellWithImg{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .cellImage{
+        width: 32px;
+        height: 32px;
+        border: 50%;
+        object-fit: cover;
+    }
+    
+    .cellStatus{
+        border-radius: 5px;
+        padding: 5px;
+        &.active{
+            background-color: rgba(0, 128, 0, 0.151);
+            color: green;
+        }
+
+        &.passive{
+            background-color: rgba(218, 165, 32, 0.267);
+            color: goldenrod;
+        }
+
+    }
+
+    .actionCell{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .actionView{
+            padding: 2px 5px;
+            border: 1px dotted purple;
+            color: purple;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .actionDelete{
+            padding: 2px 5px;
+            border: 1px dotted red;
+            color: red;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.wiget{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    justify-content: space-between;
+    -webkit-box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    -moz-box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    border-radius: 10px;
+    height: 150px;
+    
+    
+    .left,
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .title{
+            font-weight: bold;
+            font-size: 14px;
+            color: grey;
+        }
+
+        .counter{
+            font-size: 28px;
+            font-weight: 300;
+        }
+        .link{
+            width: max-content;
+            font-size: 12px;
+            border-bottom: 1px solid grey;
+        }
+        .percentage{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            &.positive{
+                color: green;
+            }
+            &.negative{
+                color: red;
+            }
+        }
+
+        .icon{
+            font-size: 18px;
+            padding: 5px;
+            border-radius: 5px;
+            align-self: flex-end;
+        }
+   
+    }
+
+        
+ 
+}
+

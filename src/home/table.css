@@ -1,0 +1,42 @@
+
+.listComponent{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    -moz-box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    box-shadow: -16px 3px 23px -10px rgba(75,42,117,0.91);
+    border-radius: 10px;
+
+    .listTitle{
+        font-weight: 400;
+        color: grey;
+        margin-bottom: 20px;
+    }
+
+    .table{
+        background-color: rgba(227, 205, 242, 0.512);
+        .cellWrapper{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .image{
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                object-fit: contain;
+            }
+        }
+        .status{
+            padding: 5px;
+            border-radius: 5px;
+            &.Approved{
+                color: green;
+                background-color: rgba(11, 82, 11, 0.299);
+            }
+            &.Pending{
+                color: goldenrod;
+                background-color: rgba(179, 137, 30, 0.329);
+            }
+        }
+    }
+}
